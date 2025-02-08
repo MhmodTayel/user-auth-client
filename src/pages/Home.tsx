@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Typography } from 'antd';
 
-export default function Home() {
+const { Title } = Typography;
+const Home: React.FC = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="flex items-center justify-center h-screen text-center">
+      <Title className="text-6xl">Welcome to the application.</Title>
+    </div>
+  );
+};
+
+export default Home;
