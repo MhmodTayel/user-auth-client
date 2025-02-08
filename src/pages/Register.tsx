@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
 import AuthForm from '../components/AuthForm';
 import AuthLayout from '../layouts/AuthLayout';
 import { useRegister } from '../utils/api';
@@ -9,7 +8,6 @@ import Loading from '../components/Loading';
 import { message } from 'antd';
 
 const Register: React.FC = () => {
-  const navigate = useNavigate();
   const mutation = useRegister();
   const authContext = useContext(AuthContext);
   const [messageApi, contextHolder] = message.useMessage();

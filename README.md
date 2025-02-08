@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# User Auth Client 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official interface for the [User Auth](https://github.com/MhmodTayel/user-auth-server)! This simple yet powerful React application provides the front-end experience for managing your authentication processes.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **📝 Register Page**: Create your new account with ease.
+- **🔐 Login Page**: Securely log into your account.
+- **🏠 Home Page**: Navigate through your dashboard.
 
-## Expanding the ESLint configuration
+## 🛠 Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: A modern JavaScript library for building user interfaces.
+- **Vite**: A lightning-fast build tool for development.
+- **Ant Design**: Elegant components for building responsive forms and menus.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
 
-- Configure the top-level `parserOptions` property like this:
+## 🌍 Deployments details
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🧑‍💻 Local Development
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the Repository**: Get the code to your local machine.
+   ```bash
+   git clone https://github.com/MhmodTayel/user-auth-client
+2. **Install Node.js**: Ensure you have Node.js v18 or later installed.
+3. **Install Dependencies**: Run the following command to get all the required packages.
+      ```bash
+   npm install
+4. **Create a `.env` File**: Copy from .env.example and configure your environment variables.
+5. **Start the Development Server**: Launch the app locally.
+      ```bash
+   npm run dev
+## Authors
+
+- [@MhmodTayel](https://github.com/MhmodTayel)
+
