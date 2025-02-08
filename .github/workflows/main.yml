@@ -35,5 +35,6 @@ jobs:
           script: |
             docker login -u "${{ secrets.DOCKER_USERNAME }}" -p "${{ secrets.DOCKER_PASSWORD }}"
             docker pull ${{ secrets.DOCKER_USERNAME }}/frontend:latest
+            export DOCKER_USERNAME=${{ secrets.DOCKER_USERNAME }}
             cd ~
             docker compose up -d --force-recreate --no-deps frontend
