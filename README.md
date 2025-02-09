@@ -18,6 +18,8 @@ Welcome to the official interface for the [User Auth](https://github.com/MhmodTa
 ## 🌍 Deployments details
 
 
+- **Live Application**: Check out the deployed app on [AWS EC2](https://www.mtauth.online) at [https://www.mtauth.online](https://www.mtauth.online/).
+- **Backend API**: Connects to the back-end service hosted at [https://www.mtauth.online/api](https://www.mtauth.online/api).
 
 ## 🧑‍💻 Local Development
 
